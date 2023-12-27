@@ -19,11 +19,10 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
-``` 
 Program for linear search method to match the item in a list
 Developed by:A. SARON XAVIER
 RegisterNumber:23005103 
-'''
+
 def linearSearch(array,n,k):
     for i in range(n):
         if array[i]==k:
@@ -45,11 +44,11 @@ else:
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-''' 
+ 
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by:A. SARON XAVIER
 RegisterNumber: 23005103
-'''
+
 def binarySearchIter(array, k, low, high):
     while low<=high:
         mid=low+(high-low)//2
@@ -83,7 +82,7 @@ iii)	# Find the element in a list using Binary Search (recursive Method).
 Program to find the element in a list using Binary Search (recursive Method).
 Developed by: A. SARON XAVIER
 RegisterNumber: 23005103
-'''
+
 def BinarySearch(arr,k,low,high):
     if low<=high:
         mid=low+(high-low)//2
@@ -109,7 +108,7 @@ else:
 
 
 ```
-## Sample Input and Output
+# Output
 ![image](https://github.com/saron2006/Search-Algorithm/assets/138849343/8f89d3c3-2404-42de-ad6b-bf366cc8fbb6)
 ![image](https://github.com/saron2006/Search-Algorithm/assets/138849343/e35e7d54-f32e-46fb-8c32-0251b26bceb7)
 ![image](https://github.com/saron2006/Search-Algorithm/assets/138849343/664fedd1-ae68-4a7b-8ea0-5a8a52deb59b)
